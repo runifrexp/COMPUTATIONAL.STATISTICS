@@ -142,7 +142,7 @@ contour(t1.seq, t2.seq, z, levels = livelli)
 #OPTIM
 #optim e' simile a optimize solo che vuole input multidimensionali e non un 
 #intervallo, bensi' un punto di partenza per cercare l'ottimo
-#optim puo' soltanto minimizzare ua funzione obiettivo, quindi bisogna definire
+#optim puo' soltanto minimizzare una funzione obiettivo, quindi bisogna definire
 #la funzione di log verosimiglianza cambiata di segno, in quanto 
 #il minimo di una funzione cambiata di segno corrisponde al suo massimo
 #e' utile ricordare che le funzioni di ottimizzazione vogliono come primo 
